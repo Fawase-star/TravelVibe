@@ -581,3 +581,37 @@ h2 {
   transform: scale(1.04);
   filter: brightness(1.1);
 }
+/* PAGE A PROPOS */
+.apropos-hero {
+  background-image: url("../img/apropos-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 6rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.apropos-box {
+  background: rgba(255, 255, 255, 0.88);
+  max-width: 900px;
+  padding: 2.5rem;
+  border-radius: 14px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.apropos-box h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+.apropos-box p {
+  line-height: 1.65;
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+ 
