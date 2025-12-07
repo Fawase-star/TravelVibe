@@ -4,21 +4,18 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Blog - TravelVibe</title>
-
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="css/bases.css">
 </head>
-
-<body>
+<body class="bg-image" style="background-image: url('img/blog-bg.jpg');">
 
   <header class="site-header">
     <div class="container header-inner">
       <a class="logo" href="index.html">
         <img src="img/logo.png" alt="TravelVibe" style="height:48px;">
       </a>
-
-      <nav class="main-nav">
+      <nav class="main-nav" aria-label="Menu principal">
         <ul style="list-style:none; display:flex; gap:0.8rem; margin:0; padding:0;">
           <li><a href="index.html">Accueil</a></li>
           <li><a href="destinations.html">Destinations</a></li>
@@ -33,39 +30,38 @@
 
   <main class="container" style="padding:2rem 1rem;">
     <h1>Blog</h1>
-    <p>Explorez nos articles inspirants pour préparer vos prochaines aventures.</p>
+    <p>Explorez nos articles inspirants pour préparer vos aventures.</p>
+
+    <section class="blog-section">
+      <div class="blog-grid">
+        <article class="blog-card">
+          <img src="img/blog1.jpg" alt="">
+          <h3>5 astuces pour voyager moins cher</h3>
+          <p>Découvrez comment optimiser votre budget pour voyager plus souvent.</p>
+          <a href="#" class="btn-blog">Lire plus</a>
+        </article>
+
+        <article class="blog-card">
+          <img src="img/blog2.jpg" alt="">
+          <h3>Top 10 des plages</h3>
+          <p>Des eaux turquoise et paysages paradisiaques à découvrir.</p>
+          <a href="#" class="btn-blog">Lire plus</a>
+        </article>
+
+        <article class="blog-card">
+          <img src="img/blog3.jpg" alt="">
+          <h3>Guide du voyage solo</h3>
+          <p>Conseils essentiels pour partir seul en toute confiance.</p>
+          <a href="#" class="btn-blog">Lire plus</a>
+        </article>
+      </div>
+    </section>
   </main>
 
-  <section class="blog-section">
-    <div class="blog-grid">
-
-      <article class="blog-card">
-        <img src="img/blog1.jpg" alt="">
-        <h3>5 astuces pour voyager moins cher</h3>
-        <p>Découvrez comment optimiser votre budget pour voyager plus souvent, sans sacrifier le confort.</p>
-        <a href="#" class="btn-blog">Lire plus</a>
-      </article>
-
-      <article class="blog-card">
-        <img src="img/blog2.jpg" alt="">
-        <h3>Top 10 des plages à couper le souffle</h3>
-        <p>Des eaux turquoise, des paysages paradisiaques et des destinations inoubliables à explorer.</p>
-        <a href="#" class="btn-blog">Lire plus</a>
-      </article>
-
-      <article class="blog-card">
-        <img src="img/blog3.jpg" alt="">
-        <h3>Comment préparer son premier voyage solo</h3>
-        <p>Conseils essentiels pour partir seul en toute confiance et profiter pleinement de l’expérience.</p>
-        <a href="#" class="btn-blog">Lire plus</a>
-      </article>
-
-    </div>
-  </section>
-
-  <footer class="site-footer" style="border-top:1px solid #eee; padding:1rem; text-align:center; margin-top:2rem;">
+  <footer class="site-footer">
     <p>&copy; 2025 — TravelVibe. Projet étudiant.</p>
   </footer>
 
 </body>
 </html>
+

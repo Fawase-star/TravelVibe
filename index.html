@@ -4,32 +4,21 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>TravelVibe</title>
-
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;700&display=swap" rel="stylesheet">
-
-  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-  <!-- CSS principal -->
   <link rel="stylesheet" href="css/bases.css">
 </head>
-
 <body>
 
-  <!-- HEADER -->
   <header class="site-header">
     <div class="container header-inner">
-
-      <!-- LOGO -->
       <a class="logo" href="index.html">
         <img src="img/logo.png" alt="TravelVibe" style="height:48px;">
       </a>
 
-      <!-- NAVIGATION -->
       <nav class="main-nav" aria-label="Menu principal">
         <ul style="list-style:none; display:flex; gap:0.8rem; margin:0; padding:0;">
-          <li><a href="index.html">Accueil</a></li>
+          <li><a href="index.html" class="active">Accueil</a></li>
           <li><a href="destinations.html">Destinations</a></li>
           <li><a href="galerie.html">Galerie</a></li>
           <li><a href="blog.html">Blog</a></li>
@@ -40,53 +29,43 @@
     </div>
   </header>
 
-  <!-- HERO -->
   <section class="hero">
-    <img src="img/hero.jpg" alt="Coucher de soleil sur la plage" class="hero-image">
+    <img src="img/hero.jpg" alt="Coucher de soleil" class="hero-image">
     <div class="hero-text">
       <h1>Explorez le monde</h1>
-      <p>Découvrez des destinations inoubliables avec TravelVibe.</p>
+      <p>Découvrez des destinations inoubliables avec TravelVibe</p>
     </div>
   </section>
 
-  <!-- CONTENU DE LA PAGE -->
   <main class="container" style="padding:2rem 1rem;">
     <h2>Bienvenue</h2>
     <p>TravelVibe vous guide vers les plus beaux endroits du monde.</p>
+
+    <section class="destinations" aria-label="Destinations populaires">
+      <h2>Destinations populaires</h2>
+      <div class="dest-grid">
+        <article class="dest-card">
+          <img src="img/dest1.jpg" alt="Bali">
+          <h3>Bali</h3>
+          <p>L'île des dieux, entre plages et rizières.</p>
+        </article>
+
+        <article class="dest-card">
+          <img src="img/dest2.jpg" alt="Maldives">
+          <h3>Maldives</h3>
+          <p>Lagons turquoise et plages paradisiaques.</p>
+        </article>
+
+        <article class="dest-card">
+          <img src="img/dest3.jpg" alt="New York">
+          <h3>New York</h3>
+          <p>La ville qui ne dort jamais.</p>
+        </article>
+      </div>
+    </section>
   </main>
 
-
-  <!-- DESTINATIONS POPULAIRES -->
-  <section class="destinations">
-  <h2>Destinations populaires</h2>
-
-  <div class="dest-grid">
-    
-    <article class="dest-card">
-      <img src="img/dest1.jpg" alt="Destination 1">
-      <h3>Bali</h3>
-      <p>L'île des dieux, entre plages et rizières.</p>
-    </article>
-
-    <article class="dest-card">
-  <img src="img/dest2.jpg" alt="Maldives">
-  <h3>Maldives</h3>
-  <p>Plages turquoise et paysages paradisiaques.</p>
-</article>
-
-
-    <article class="dest-card">
-      <img src="img/dest3.jpg" alt="Destination 3">
-      <h3>New York</h3>
-      <p>La ville qui ne dort jamais.</p>
-    </article>
-
-  </div>
-</section>
-
-
-  <!-- FOOTER -->
-  <footer class="site-footer" style="border-top:1px solid #eee; padding:1rem; text-align:center; margin-top:2rem;">
+  <footer class="site-footer">
     <p>&copy; 2025 — TravelVibe. Projet étudiant.</p>
   </footer>
 

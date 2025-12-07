@@ -4,26 +4,17 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Destinations - TravelVibe</title>
-
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;700&display=swap" rel="stylesheet">
-
-  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-  <!-- CSS principal -->
   <link rel="stylesheet" href="css/bases.css">
 </head>
-
 <body>
 
-  <!-- HEADER -->
   <header class="site-header">
     <div class="container header-inner">
       <a class="logo" href="index.html">
         <img src="img/logo.png" alt="TravelVibe" style="height:48px;">
       </a>
-
       <nav class="main-nav" aria-label="Menu principal">
         <ul style="list-style:none; display:flex; gap:0.8rem; margin:0; padding:0;">
           <li><a href="index.html">Accueil</a></li>
@@ -37,39 +28,35 @@
     </div>
   </header>
 
-  <!-- TITRE DE LA PAGE -->
   <main class="container" style="padding:2rem 1rem;">
     <h1>Nos Destinations</h1>
     <p>Découvrez nos plus beaux lieux à travers le monde.</p>
+
+    <section class="destinations">
+      <div class="dest-grid">
+        <article class="dest-card">
+          <img src="img/dest1.jpg" alt="Bali">
+          <h3>Bali</h3>
+          <p>L'île des dieux, entre plages et rizières.</p>
+        </article>
+
+        <article class="dest-card">
+          <img src="img/dest2.jpg" alt="Maldives">
+          <h3>Maldives</h3>
+          <p>Lagons turquoise et plages paradisiaques.</p>
+        </article>
+
+        <article class="dest-card">
+          <img src="img/dest3.jpg" alt="New York">
+          <h3>New York</h3>
+          <p>La ville qui ne dort jamais.</p>
+        </article>
+
+      </div>
+    </section>
   </main>
 
-  <!-- LISTE DES DESTINATIONS AVEC GRID -->
-  <section class="destinations">
-    <div class="dest-grid">
-
-      <article class="dest-card">
-        <img src="img/dest1.jpg" alt="Bali">
-        <h3>Bali</h3>
-        <p>L'île des dieux, entre plages et rizières.</p>
-      </article>
-
-      <article class="dest-card">
-        <img src="img/dest2.jpg" alt="Maldives">
-        <h3>Maldives</h3>
-        <p>Lagons turquoise et plages paradisiaques.</p>
-      </article>
-
-      <article class="dest-card">
-        <img src="img/dest3.jpg" alt="New York">
-        <h3>New York</h3>
-        <p>La ville qui ne dort jamais.</p>
-      </article>
-
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer class="site-footer" style="border-top:1px solid #eee; padding:1rem; text-align:center; margin-top:2rem;">
+  <footer class="site-footer">
     <p>&copy; 2025 — TravelVibe. Projet étudiant.</p>
   </footer>
 

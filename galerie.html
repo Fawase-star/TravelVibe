@@ -4,12 +4,10 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Galerie - TravelVibe</title>
-
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="css/bases.css">
 </head>
-
 <body>
 
   <header class="site-header">
@@ -17,8 +15,7 @@
       <a class="logo" href="index.html">
         <img src="img/logo.png" alt="TravelVibe" style="height:48px;">
       </a>
-
-      <nav class="main-nav">
+      <nav class="main-nav" aria-label="Menu principal">
         <ul style="list-style:none; display:flex; gap:0.8rem; margin:0; padding:0;">
           <li><a href="index.html">Accueil</a></li>
           <li><a href="destinations.html">Destinations</a></li>
@@ -33,24 +30,24 @@
 
   <main class="container" style="padding:2rem 1rem;">
     <h1>Galerie photo</h1>
-    <p>Découvrez nos plus beaux souvenirs de voyage.</p>
+    <p>Nos plus beaux clichés.</p>
+
+    <section class="galerie">
+      <div class="galerie-grid">
+        <img src="img/gallery1.jpg" alt="">
+        <img src="img/gallery2.jpg" alt="">
+        <img src="img/gallery3.jpg" alt="">
+        <img src="img/gallery4.jpg" alt="">
+        <img src="img/gallery5.jpg" alt="">
+        <img src="img/gallery6.jpg" alt="">
+        <img src="img/gallery7.jpg" alt="">
+        <img src="img/gallery8.jpg" alt="">
+        <img src="img/gallery9.jpg" alt="">
+      </div>
+    </section>
   </main>
 
-  <section class="galerie">
-    <div class="galerie-grid">
-      <img src="img/gallery1.jpg" alt="">
-      <img src="img/gallery2.jpg" alt="">
-      <img src="img/gallery3.jpg" alt="">
-      <img src="img/gallery4.jpg" alt="">
-      <img src="img/gallery5.jpg" alt="">
-      <img src="img/gallery6.jpg" alt="">
-      <img src="img/gallery7.jpg" alt="">
-      <img src="img/gallery8.jpg" alt="">
-      <img src="img/gallery9.jpg" alt="">
-    </div>
-  </section>
-
-  <footer class="site-footer" style="border-top:1px solid #eee; padding:1rem; text-align:center; margin-top:2rem;">
+  <footer class="site-footer">
     <p>&copy; 2025 — TravelVibe. Projet étudiant.</p>
   </footer>
 
